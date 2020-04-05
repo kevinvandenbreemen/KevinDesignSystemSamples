@@ -16,4 +16,10 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, SystemStatusLogDemo::class.java)
         startActivity(intent)
     }
+
+    fun showButtonsDemo(view: View) {
+        val intent = Intent(this, KDSButtonActivity::class.java)
+        startActivity(intent)
+
+    }
 }
